@@ -1,0 +1,13 @@
+.header {
+  background: #111518;
+  color: #fff;
+  padding: 20px;
+}
+
+.header a {
+  display: block;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+}

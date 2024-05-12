@@ -1,0 +1,71 @@
+.details {
+  background: #111518;
+  padding: 20px;
+}
+
+.details .navigation {
+  text-align: left;
+  padding: 10px 120px 50px 120px;
+}
+
+.details .navigation a {
+  color: #fff;
+}
+
+.details .intro img {
+  height: 35vh;
+}
+
+.details .intro h1 {
+  padding-top: 15px;
+  color: #fff;
+}
+
+.details .intro h2 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: #6c737c;
+}
+
+.details .rating {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 25px;
+}
+
+.details .rating p {
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.details .rating span {
+  color: #a2abba;
+  font-size: 15px;
+}
+
+.details .rating .b,
+.details .rating .page,
+.details .rating .rate {
+  border: 1px solid #374a56;
+  padding: 12px 25px 10px 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.details .info {
+  padding: 80px 120px 50px 120px;
+  text-align: left;
+  color: #fff;
+}
+
+.details .info h1 {
+  padding-bottom: 12px;
+}
+
+.details .info p {
+  font-size: 18px;
+  line-height: 1.8;
+}

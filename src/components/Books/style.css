@@ -1,0 +1,7 @@
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 40px;
+  background: #111518;
+  padding: 50px 300px;
+}
