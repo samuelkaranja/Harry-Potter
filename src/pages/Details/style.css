@@ -69,3 +69,17 @@
   font-size: 18px;
   line-height: 1.8;
 }
+
+@media only screen and (max-width: 425px) {
+  .details .navigation {
+    padding: 10px 120px 50px 10px;
+  }
+
+  .details .rating {
+    gap: 40px;
+  }
+
+  .details .info {
+    padding: 50px 0px 10px 7px;
+  }
+}

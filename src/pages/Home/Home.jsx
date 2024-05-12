@@ -1,9 +1,10 @@
 import React from "react";
-import { Banner, Books } from "../../components";
+import { Header, Banner, Books } from "../../components";
 
 const Home = () => {
   return (
     <div className="home">
+      <Header />
       <Banner />
       <Books />
     </div>

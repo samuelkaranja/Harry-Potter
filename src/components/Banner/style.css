@@ -1,6 +1,7 @@
 .banner {
   position: relative;
-  height: 80vh;
+  z-index: 1;
+  height: 85vh;
   width: 100%;
   background-image: url("../../assets/images/harry.jpg");
   background-repeat: no-repeat;
@@ -20,8 +21,9 @@
 
 .banner .content {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
@@ -47,4 +49,18 @@
   text-decoration: none;
   font-size: 17px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .banner {
+    height: 80vh;
+  }
+
+  .banner .content {
+    top: 55%;
+  }
+
+  .banner .content h1 {
+    font-size: 40px;
+  }
 }

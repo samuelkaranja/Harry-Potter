@@ -10,7 +10,7 @@ const Banner = () => {
           "Join Harry Potter in his magical journey in Howgwarts from the
           beginning to the end."
         </p>
-        <a href="/#">Start Reading</a>
+        {/* <a href="/#">Start Reading</a> */}
       </div>
     </div>
   );

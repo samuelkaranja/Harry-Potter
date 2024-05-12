@@ -1,13 +1,51 @@
 .header {
-  background: #111518;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: -webkit-fill-available;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #111518; */
   color: #fff;
-  padding: 20px;
+  padding: 20px 30px;
 }
 
-.header a {
-  display: block;
+.header .title {
   font-weight: 700;
   font-size: 25px;
+  font-style: italic;
   text-decoration: none;
   color: #fff;
+}
+
+.header .more ul {
+  list-style-type: none;
+}
+
+.header .more ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .more ul li a {
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    padding: 15px 12px;
+  }
+
+  .header .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .header .more ul li {
+    padding: 0 10px;
+  }
 }

@@ -10,7 +10,9 @@ const Card = ({ bk }) => {
   return (
     <div className="card">
       <div className="card-info">
-        <img src={img} alt="" />
+        <div className="image">
+          <img src={img} alt="" />
+        </div>
         <Link to={`/details/${id}`} className="title">
           {title}
         </Link>

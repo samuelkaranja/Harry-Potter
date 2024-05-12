@@ -5,3 +5,9 @@
   background: #111518;
   padding: 50px 300px;
 }
+
+@media only screen and (max-width: 425px) {
+  .books {
+    padding: 30px;
+  }
+}
